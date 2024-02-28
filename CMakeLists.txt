@@ -29,6 +29,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/${CMAKE_INSTALL_LIBDIR}"
 set(BUILD_SHARED_LIBS ON)
 
 # Find ParaView. This will bring in ParaView's CMake API and imported targets.
+option(PARAVIEW_BUILD_QT_GUI "Build with Qt GUI or only server components" ON)
 find_package(ParaView 5.10.0 REQUIRED)
 
 # Scan the plugin file in order to set up internal data structures for building plugins
