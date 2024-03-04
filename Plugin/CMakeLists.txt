@@ -11,7 +11,7 @@ endif (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 # DEPENDENCIES
 # -----------------------------------------------------------------------------
 
-find_package(FESAPI REQUIRED)
+find_package(FesapiCpp REQUIRED)
 
 set (WITH_ETP_SSL OFF CACHE BOOL "Only if FESAPI build with ETP support... for building Fespp with ETP support.")
 

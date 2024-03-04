@@ -15,3 +15,4 @@ DEPENDS
   VTK::IOCore
 PRIVATE_DEPENDS
   VTK::vtksys
+  FesapiCpp
